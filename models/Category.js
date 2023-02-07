@@ -6,6 +6,13 @@ class Category extends Model {}
 
 Category.init(
   {
+    id: {
+      type: DataTypes.INTEGER,
+      allowNUll: false,
+      primaryKey: true,
+      autoIncrement: true,
+
+    }
     // define columns
   },
   {
